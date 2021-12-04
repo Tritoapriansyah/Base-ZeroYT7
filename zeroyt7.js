@@ -107,18 +107,18 @@ module.exports = zeroyt7 = async (zeroyt7, mek, _welkom) => {
 //━━━━━━━━━━━━━━━[ CONNECTION 1 ]━━━━━━━━━━━━━━━━━//
 
 		mess = {
-			wait: 'Sabar Lagi Proses Tod...!',
-			success: 'Done Jangan Lupa Subscribe Zero YT7',
+			wait: 'Sabar Lagi Proses...!',
+			success: 'Done',
 			error: {
 				stick: 'Gagal Convert Gambar To Sticker...Coba Lagi !',
 				Iv: 'Linknya Error Tod !'
 			},
 			only: {
-				admin: 'Kusus Admin Tod !',
-				group: 'Khusus Group Tod !'
+				admin: 'Kusus Admin!',
+				group: 'Khusus Group!'
 			}
 		}
-		faketeks = 'Zero YT7'
+		faketeks = 'Lolita Bot'
 		let isUrl = (url) => {
         return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%.+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%+.~#?&/=]*)/, 'gi'))
         }
@@ -273,10 +273,10 @@ var ase = new Date();
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `SUBSCRIBE ZERO YT7`, 
-                            orderTitle: `SUBSCRIBE ZERO YT7`,
+                            message: `Lolita Bot`, 
+                            orderTitle: `By Trito`,
                             thumbnail: zero, //Gambarnye
-                            sellerJid: '0@s.whatsapp.net' 
+                            sellerJid: '6285888258313@s.whatsapp.net' 
                           }
                         }
                       }
@@ -430,7 +430,8 @@ teks =
 `Ini Base Buatan Zero YT7 Silahkan Di Pake Jika Ingin Recode Atau Reupload Tolong Creator Jangan Hpus Tolong Hargai Karya Orang 🙏`
 but = [
           { buttonId: `${prefix}infobot`, buttonText: { displayText: '☰ INFO' }, type: 1 },
-          { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 }
+          { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 },
+	  { buttonId: `${prefix}sc`, buttonText: { displayText: ' ☰ SCRIPT' }, type: 1 },
         ]
         sendButLocation(from, menunya, teks, gambar, but)
 break
@@ -457,7 +458,7 @@ timestamp = speed();
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER' }, type: 1 },
           { buttonId: `${prefix}sc`, buttonText: { displayText: '☰ SCRIPT' }, type: 1 }
         ]
-        sendButton(from, teks, '©Created : Zero YT7', but, mek)
+        sendButton(from, teks, '©Created by : Trito', but, mek)
 break
 	
 //━━━━━━━━━━━━━━━[ FITUR GROUP ]━━━━━━━━━━━━━━━━━//
